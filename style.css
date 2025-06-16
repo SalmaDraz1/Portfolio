@@ -21,9 +21,9 @@ h1 span {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 32px; /* ده اللي بيضيف الحواف الجانبية */
+  padding: 0 0; /* ده اللي بيضيف الحواف الجانبية */
 }
 
 
@@ -143,6 +143,7 @@ h1 span {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
+  border-radius: 8px;
 }
 
 #about a {
@@ -615,7 +616,7 @@ h3 {
 }
 
 .article-title {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 0 10px;
   color: #3C3C67;
 }
@@ -663,6 +664,49 @@ h3 {
 .contact-btn:hover {
   background-color: #4e0580;
 }
+
+/* Footer */
+.site-footer {
+  background-color: #1F1F2E;
+  padding: 30px 0;
+  color: #ccc;
+}
+
+.footer-divider {
+  height: 1px;
+  background-color: #444;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 16px;
+  color: #aaa;
+}
+
+.social-icons-footer a {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.social-icons-footer a:hover {
+  color: #ffffff;
+}
+
+
 
 /* === Animations === */
 @keyframes fadeIn {
