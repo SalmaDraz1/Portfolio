@@ -17,7 +17,7 @@ body {
 }
 
 h1 span {
-  color: #6A0DAD;
+  color: #C8AE7D;
 }
 
 .container {
@@ -51,7 +51,7 @@ h1 span {
   line-height: 1.4;
   margin-bottom: 2rem;
   font-weight: 700;
-  color: #3C3C67;
+  color: #4A3C35;
 }
 
 .hero h2 {
@@ -60,7 +60,7 @@ h1 span {
 }
 
 .download-btn {
-  background-color: #6A0DAD;
+  background-color: #C8AE7D;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
@@ -69,15 +69,16 @@ h1 span {
   display: inline-block;
   margin-bottom: 1rem;
   transition: background 0.3s;
-  box-shadow: 0 4px 12px rgba(106, 13, 173, 0.2);
+  box-shadow: 0 4px 12px rgba(143, 123, 64, 0.2);
 }
 
 .download-btn:hover {
-  background-color: #5a089e;
+  background-color: #A37723;
 }
 
 .scroll-down {
   font-size: 0.95rem;
+  color: #4A3C35;
   opacity: 0.6;
   animation: bounce 2s infinite;
 }
@@ -91,12 +92,12 @@ h1 span {
 }
 
 .social-icons a {
-  color: #6A0DAD;
+  color: #C8AE7D;
   font-size: 1.2rem;
   padding: 0.6rem;
   border-radius: 50%;
   background: white;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(123, 98, 21, 0.1);
   transition: transform 0.2s;
 }
 
@@ -106,7 +107,7 @@ h1 span {
 
 .section-title {
   font-size: 36px;
-  color: #3C3C67;
+  color: #4A3C35;
   font-weight: 700;
   margin-bottom: 60px;
   position: relative;
@@ -123,14 +124,14 @@ h1 span {
   transform: translateX(-50%);
   width: 60px;
   height: 4px;
-  background-color: #6A0DAD; /* لون البراند */
+  background-color: #C8AE7D; /* لون البراند */
   border-radius: 2px;
 }
 
 .section-subtitle {
   text-align: center;
   font-size: 16px;
-  color: #6b7280; /* Gray-500 */
+  color: #4A3C35; /* Gray-500 */
   margin-top: -10px;
   margin-bottom: 40px;
 }
@@ -152,7 +153,8 @@ h1 span {
 
 .about-section {
   padding: 20px;
-  background: #F9FAFB;
+  background:#fffbf5;
+;
 }
 
 .about-container {
@@ -173,7 +175,7 @@ h1 span {
   height: auto;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(106, 13, 173, 0.2);
+  box-shadow: 0 10px 20px rgba(184, 151, 67, 0.2);
   transition: transform 0.3s ease;
 }
 
@@ -188,7 +190,7 @@ h1 span {
 }
 
 .about-content h3 {
-  color: #6A0DAD;
+  color: #C8AE7D;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -196,14 +198,14 @@ h1 span {
 
 .about-content h2 {
   font-size: 32px;
-  color: #3C3C67;
+  color: #4A3C35;
   margin-bottom: 20px;
   line-height: 1.4;
 }
 
 .about-content p {
   font-size: 16px;
-  color: #3C3C67;
+  color: #4A3C35;
   line-height: 1.8;
   margin-bottom: 20px;
 }
@@ -212,7 +214,7 @@ h1 span {
   display: inline-block;
   padding: 12px 24px;
   background-color: white;
-  color: #3C3C67;
+  color: #4A3C35;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(106, 13, 173, 0.15);
   font-weight: 500;
@@ -221,7 +223,7 @@ h1 span {
 }
 
 .about-content .btn:hover {
-  background-color: #6A0DAD;
+  background-color: #C8AE7D;
   color: white;
 }
 
@@ -240,7 +242,7 @@ h1 span {
   background-color: #ffffff;
   padding: 60px 20px;
   font-family: Arial, sans-serif;
-  color: #3c3c67;
+  color: #4A3C35;
 }
 
 .section-header {
@@ -251,7 +253,7 @@ h1 span {
 
 .section-subtitle {
   font-size: 16px;
-  color: #6b7280;
+  color: #4A3C35;
   margin-top: 10px;
 }
 
@@ -334,7 +336,7 @@ h3 {
 
 .section-title {
   text-align: center;
-  color: #3C3C67;
+  color: #4A3C35;
   font-size: 28px;
   margin-bottom: 40px;
 }
@@ -352,7 +354,7 @@ h3 {
 .skill-name {
   display: block;
   font-weight: bold;
-  color: #3C3C67;
+  color: #4A3C35;
   margin-bottom: 8px;
 }
 
@@ -372,29 +374,29 @@ h3 {
 /* ألوان حسب النسبة */
 .skill-fill[data-level="90"],
 .skill-fill[data-level="95"] {
-  background-color: #6A0DAD; /* Main Brand */
+  background-color: #C8AE7D; /* Main Brand */
 }
 
 .skill-fill[data-level="85"],
 .skill-fill[data-level="88"],
 .skill-fill[data-level="82"],
 .skill-fill[data-level="80"] {
-  background-color: #8B30C9;
+  background-color: #e4cfa7;
 }
 
 .skill-fill[data-level="78"],
 .skill-fill[data-level="75"],
 .skill-fill[data-level="70"] {
-  background-color: #A65ED6;
+  background-color: #d5c29e;
 }
 
 .skill-fill[data-level="65"],
 .skill-fill[data-level="60"] {
-  background-color: #C290E4;
+  background-color: #fff7e7;
 }
 
 .skill-fill[data-level="50"] {
-  background-color: #E0C6F3;
+  background-color: #C8AE7D;
 }
 
 
@@ -489,7 +491,7 @@ h3 {
 
 .tool-card span {
   font-size: 0.95rem;
-  color: #3C3C67;
+  color: #4A3C35;
 }
 
 .tool-card:hover img {
@@ -537,7 +539,7 @@ h3 {
 
 .project-title {
   font-size: 20px;
-  color: #3C3C67;
+  color: #4A3C35;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -553,7 +555,7 @@ h3 {
   display: inline-block;
   padding: 10px 18px;
   background-color: white;
-  color: #3C3C67;
+  color: #4A3C35;
   text-decoration: none;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(106, 13, 173, 0.15);
@@ -573,7 +575,7 @@ h3 {
 .articles-section {
   background-color: #F9FAFB;
   padding: 60px 20px;
-  color: #3C3C67;
+  color: #4A3C35;
   font-family: 'Adobe Clean', sans-serif;
 }
 
@@ -610,7 +612,7 @@ h3 {
 
 .platform {
   font-size: 14px;
-  color: #6A0DAD;
+  color: #C8AE7D;
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -618,12 +620,12 @@ h3 {
 .article-title {
   font-size: 16px;
   margin: 0 0 10px;
-  color: #3C3C67;
+  color: #4A3C35;
 }
 
 .read-link {
   font-size: 14px;
-  color: #6A0DAD;
+  color: #C8AE7D;
   text-decoration: none;
   font-weight: 500;
 }
@@ -634,7 +636,7 @@ h3 {
 
 /* Contact Section */
 .contact-section {
-  background-color: #1F1F2E;
+  background-color: #4A3C35;
   color: #ffffff;
   text-align: center;
   padding: 100px 20px;
@@ -652,7 +654,7 @@ h3 {
 }
 
 .contact-btn {
-  background-color: #6A0DAD;
+  background-color: #C8AE7D;
   color: #ffffff;
   padding: 14px 28px;
   border-radius: 30px;
@@ -662,19 +664,19 @@ h3 {
 }
 
 .contact-btn:hover {
-  background-color: #4e0580;
+  background-color: #C8AE7D;
 }
 
 /* Footer */
 .site-footer {
-  background-color: #1F1F2E;
+  background-color: #4A3C35;
   padding: 30px 0;
   color: #ccc;
 }
 
 .footer-divider {
   height: 1px;
-  background-color: #444;
+  background-color: #636363;
   width: 100%;
   margin-bottom: 30px;
 }
@@ -743,7 +745,7 @@ h3 {
   transform: translateX(-50%);
   text-align: center;
   text-decoration: none;
-  color: #3C3C67;
+  color: #4A3C35;
   font-size: 0.9rem;
   animation: fadeIn 2s ease;
 }
@@ -751,8 +753,8 @@ h3 {
 .scroll-down .arrow {
   width: 16px;
   height: 16px;
-  border-bottom: 3px solid #3C3C67;
-  border-right: 3px solid #3C3C67;
+  border-bottom: 3px solid #4A3C35;
+  border-right: 3px solid #4A3C35;
   transform: rotate(45deg);
   margin: 0 auto 24px;
   animation: bounce 2s infinite;
