@@ -153,7 +153,7 @@ h1 span {
 
 .about-section {
   padding: 20px;
-  background:#fffbf5;
+  background-color: #fbf9f3;
 ;
 }
 
@@ -174,7 +174,7 @@ h1 span {
   max-width: 300px;
   height: auto;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 1900px;
   box-shadow: 0 10px 20px rgba(184, 151, 67, 0.2);
   transition: transform 0.3s ease;
 }
@@ -216,7 +216,7 @@ h1 span {
   background-color: white;
   color: #4A3C35;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(106, 13, 173, 0.15);
+  box-shadow: 0 8px 20px rgba(173, 149, 13, 0.15);
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -234,9 +234,9 @@ h1 span {
   animation-delay: 0.3s;
 }
 
+
+
 /* Process Section */
-
-
 
 .process-wrapper {
   background-color: #ffffff;
@@ -250,12 +250,12 @@ h1 span {
   margin-bottom: 50px;
 }
 
-
+/* 
 .section-subtitle {
   font-size: 16px;
-  color: #4A3C35;
+  color: #41332c;
   margin-top: 10px;
-}
+} */
 
 .process-section {
   display: flex;
@@ -278,7 +278,7 @@ h1 span {
   height: 80px;
   border-radius: 50%;
   background-color: white;
-  border: 2px solid #d1d5db;
+  border: 2px solid #c8ae7d3b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -292,13 +292,13 @@ h1 span {
 }
 
 .circle i {
-  color: #888;
+  color: #C8AE7D;
   font-size: 28px;
 }
 
 .arrow {
   font-size: 24px;
-  color: #ccc;
+  color: #C8AE7D;
 }
 
 h3 {
@@ -392,7 +392,7 @@ h3 {
 
 .skill-fill[data-level="65"],
 .skill-fill[data-level="60"] {
-  background-color: #fff7e7;
+  background-color: #ffefce;
 }
 
 .skill-fill[data-level="50"] {
@@ -458,7 +458,7 @@ h3 {
 /* Tools Section */
 .tools-section {
   padding: 80px 20px;
-  background-color: #f3f4f6;
+  background-color: #fbf9f3;
   text-align: center;
 }
 
@@ -514,16 +514,17 @@ h3 {
 }
 
 .project-card {
-  background-color: #F9FAFB;
+  background-color: #ffffff;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px #78664517;
+  
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 12px 24px #cdaf773c;
 }
 
 .project-image {
@@ -558,7 +559,7 @@ h3 {
   color: #4A3C35;
   text-decoration: none;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(106, 13, 173, 0.15);
+  box-shadow: 0 0px 20px rgba(173, 149, 13, 0.15);
   font-weight: 400;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -566,14 +567,14 @@ h3 {
 
 
 .project-btn:hover {
-  background-color: #faf5fd;
+  background-color: #fdf6ea;
 }
 
 
 /* Articles Section */
 
 .articles-section {
-  background-color: #F9FAFB;
+  background-color: #fbf9f3;
   padding: 60px 20px;
   color: #4A3C35;
   font-family: 'Adobe Clean', sans-serif;
@@ -599,15 +600,15 @@ h3 {
 
 .article-card {
   background: #ffffff;
-  border: 1px solid #E5E7EB;
+  border: 1px solid #ffe8bc;
   border-radius: 16px;
   padding: 20px;
   transition: box-shadow 0.3s ease;
-  box-shadow: 0 4px 8px rgba(106, 13, 173, 0.06);
+  box-shadow: 0 4px 8px #86734f17;
 }
 
 .article-card:hover {
-  box-shadow: 0 6px 12px rgba(106, 13, 173, 0.12);
+  box-shadow: 0 8px 16px #cdaf773c;
 }
 
 .platform {
